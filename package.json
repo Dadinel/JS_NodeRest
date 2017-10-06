@@ -1,0 +1,25 @@
+{
+  "name": "noderest",
+  "version": "1.0.0",
+  "description": "Example, Node Rest Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dadinel/JS_NodeRest.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Daniel Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dadinel/JS_NodeRest/issues"
+  },
+  "homepage": "https://github.com/Dadinel/JS_NodeRest#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
