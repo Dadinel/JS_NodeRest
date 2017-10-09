@@ -31,6 +31,10 @@ app.get( '/HelloWorld' , function( req , rest ) {
     rest.send( helloWorld );
 });
 
+app.get( '/WithData/:id' , function( req , rest ) {
+    rest.send( 'Your ID:' + req.params.id );
+});
+
 app.use( function( req , res ) {
     res.status( 404 ).send( { url: req.originalUrl + ' not found' } )
 });
